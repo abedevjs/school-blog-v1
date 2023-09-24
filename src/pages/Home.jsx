@@ -25,15 +25,22 @@ function Header() {
 
       {/* Image */}
       <div className=" mx-auto  flex items-center justify-center">
+        {/* Photo ini dimensinya hanya LG sj krn di mobile dia hidden */}
         <img
-          className="w-[35%] rounded-lg border-fuchsia-500 border-2 translate-y-8 -rotate-[8deg] lg:hidden"
-          src="/images/mahasin 1.jpg"
-          alt="Foto1"
+          className="w-[35%] rounded-lg border-fuchsia-500 border-2 translate-y-8 -rotate-[8deg] md:hidden"
+          src="/images/Mahasin2LG.jpg"
+          alt="Mahasin2LG"
         />
 
+        {/* Photo ini 2 dimensi, yg 1 akan di hidden di mobile device */}
         <img
-          className="w-[35%] rounded-lg border-fuchsia-500 border-2 rotate-[8deg] lg:w-3/4 lg:rotate-0 sm:w-[90%]"
-          src="/images/mahasin 2.jpg"
+          className="w-[35%] rounded-lg border-fuchsia-500 border-2 rotate-[8deg] lg:w-3/4 lg:rotate-0 sm:w-[90%] md:hidden"
+          src="/images/Mahasin3LG.jpg"
+          alt="Foto1"
+        />
+        <img
+          className="w-[35%] rounded-lg border-fuchsia-500 border-2 rotate-[8deg] lg:w-3/4 lg:rotate-0 sm:w-[90%] hidden md:block"
+          src="/images/Mahasin3SM.jpg"
           alt="Foto1"
         />
       </div>
@@ -48,7 +55,11 @@ function Header() {
           Tulis Pesan
         </Link>
         <div className="flex justify-between gap-1 sm:gap-2">
-          <a href="facebook.com">
+          <a
+            href="https://www.facebook.com/profile.php?id=61550423771405"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Icon icon="devicon:facebook" className=" h-5 w-5" />
           </a>
           <a
@@ -58,10 +69,18 @@ function Header() {
           >
             <Icon icon="logos:whatsapp-icon" className=" h-5 w-5" />
           </a>
-          <a href="https://www.instagram.com/asing.ms/">
+          <a
+            href="https://www.instagram.com/asing.ms/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Icon icon="skill-icons:instagram" className=" h-5 w-5" />
           </a>
-          <a href="https://t.me/MsFunn">
+          <a
+            href="https://t.me/+GPyz9OACw3RlODBl"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Icon icon="logos:telegram" className=" h-5 w-5" />
           </a>
         </div>
