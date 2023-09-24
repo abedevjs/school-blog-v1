@@ -27,13 +27,13 @@ function Header() {
       <div className=" mx-auto  flex items-center justify-center">
         <img
           className="w-[35%] rounded-lg border-fuchsia-500 border-2 translate-y-8 -rotate-[8deg] lg:hidden"
-          src="/src/assets/mahasin 1.jpg"
+          src="../src/assets/mahasin 1.jpg"
           alt="Foto1"
         />
 
         <img
           className="w-[35%] rounded-lg border-fuchsia-500 border-2 rotate-[8deg] lg:w-3/4 lg:rotate-0 sm:w-[90%]"
-          src="/src/assets/mahasin 2.jpg"
+          src="../src/assets/mahasin 2.jpg"
           alt="Foto1"
         />
       </div>
