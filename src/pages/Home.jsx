@@ -27,19 +27,19 @@ function Header() {
       <div className=" mx-auto  flex items-center justify-center">
         {/* Photo ini dimensinya hanya LG sj krn di mobile dia hidden */}
         <img
-          className="w-[35%] rounded-lg border-fuchsia-500 border-2 translate-y-8 -rotate-[8deg] md:hidden"
+          className="w-[35%] rounded-lg border-fuchsia-500 border-2 translate-y-8 -rotate-[8deg] lg:hidden"
           src="/images/Mahasin2LG.jpg"
           alt="Mahasin2LG"
         />
 
         {/* Photo ini 2 dimensi, yg 1 akan di hidden di mobile device */}
         <img
-          className="w-[35%] rounded-lg border-fuchsia-500 border-2 rotate-[8deg] lg:w-3/4 lg:rotate-0 sm:w-[90%] md:hidden"
+          className="w-[35%] rounded-lg border-fuchsia-500 border-2 rotate-[8deg] lg:w-3/4 lg:rotate-0 sm:w-[90%] lg:hidden"
           src="/images/Mahasin3LG.jpg"
           alt="Foto1"
         />
         <img
-          className="w-[35%] rounded-lg border-fuchsia-500 border-2 rotate-[8deg] lg:w-3/4 lg:rotate-0 sm:w-[90%] hidden md:block"
+          className="w-[35%] rounded-lg border-fuchsia-500 border-2 rotate-[8deg] lg:w-3/4 lg:rotate-0 sm:w-[90%] hidden lg:block"
           src="/images/Mahasin3SM.jpg"
           alt="Foto1"
         />
