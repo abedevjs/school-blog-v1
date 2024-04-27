@@ -171,15 +171,20 @@ function FormAddPost() {
         {/* IMAGE */}
         <div className=" w-full flex items-center justify-between  md:flex-col">
           <label htmlFor="body" className=" font-semibold md:self-start">
-            Gambar <span className="italic text-xs">(jika ada)</span>:
+            Gambar:
           </label>
           <input
             type="file"
             id="image"
             accept="image/*"
-            {...register("image")}
+            {...register("image", {
+              required: "Postingan harus disertai gambar ya kak 🥺",
+            })}
           />
         </div>
+        {errors?.image?.message && (
+          <p className=" text-sm text-red-600 italic">{errors.image.message}</p>
+        )}
         <button
           disabled={isLoading}
           className=" mt-4 p-2 px-4 self-end text-lg text-slate-700 rounded-xl bg-yellow-500 duration-300 opacity-80 shadow-md hover:opacity-100 md:p-1 md:px-2 md:text-base"

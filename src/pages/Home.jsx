@@ -14,7 +14,7 @@ function Home() {
     </section>
   );
 }
-const motto = `Arifah "Memories of XI.05"`;
+const motto = `Crypto x Airdrop`;
 function Header() {
   return (
     <div className=" mb-12 h-[90vh] flex flex-col justify-around lg:h-[70vh] md:h-[60vh] sm:h-[60vh]">
@@ -28,25 +28,25 @@ function Header() {
         {/* Photo ini dimensinya hanya LG sj krn di mobile dia hidden */}
         <img
           className="w-[35%] rounded-lg border-fuchsia-500 border-2 translate-y-8 -rotate-[8deg] lg:hidden"
-          src="/images/Mahasin2LG.jpg"
+          src="/images/pc1.jpg"
           alt="Mahasin2LG"
         />
 
         {/* Photo ini 2 dimensi, yg 1 akan di hidden di mobile device */}
         <img
           className="w-[35%] rounded-lg border-fuchsia-500 border-2 rotate-[8deg] lg:w-3/4 lg:rotate-0 sm:w-[90%] lg:hidden"
-          src="/images/Mahasin3LG.jpg"
-          alt="Foto1"
+          src="/images/pc2.jpg"
+          alt="Foto2"
         />
         <img
           className="w-[35%] rounded-lg border-fuchsia-500 border-2 rotate-[8deg] lg:w-3/4 lg:rotate-0 sm:w-[90%] hidden lg:block"
-          src="/images/Mahasin3SM.jpg"
+          src="/images/pc2.jpg"
           alt="Foto1"
         />
       </div>
 
       {/* Button */}
-      <div className="flex self-center gap-4 font-semibold">
+      <div className="mx-auto flex items-center gap-4 font-semibold">
         <Link
           to="/add"
           target="_blank"
@@ -55,13 +55,13 @@ function Header() {
           Tulis Pesan
         </Link>
         <div className="flex justify-between gap-1 sm:gap-2">
-          <a
+          {/* <a
             href="https://www.facebook.com/asingm.m"
             target="_blank"
             rel="noreferrer"
           >
             <Icon icon="devicon:facebook" className=" h-5 w-5" />
-          </a>
+          </a> */}
           <a
             href="https://chat.whatsapp.com/JH8zM89FJzvF44Axt64CQY"
             target="_blank"
@@ -70,17 +70,13 @@ function Header() {
             <Icon icon="logos:whatsapp-icon" className=" h-5 w-5" />
           </a>
           <a
-            href="https://www.instagram.com/asing.ms/"
+            href="https://www.instagram.com/crypto.neo_?igsh=dTFtZmd5b2ZtcTBm"
             target="_blank"
             rel="noreferrer"
           >
             <Icon icon="skill-icons:instagram" className=" h-5 w-5" />
           </a>
-          <a
-            href="https://t.me/+GPyz9OACw3RlODBl"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://t.me/Gamee_In" target="_blank" rel="noreferrer">
             <Icon icon="logos:telegram" className=" h-5 w-5" />
           </a>
         </div>
