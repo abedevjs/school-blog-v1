@@ -62,12 +62,19 @@ function Header() {
           >
             <Icon icon="devicon:facebook" className=" h-5 w-5" />
           </a> */}
-          <a
+          {/* <a
             href="https://chat.whatsapp.com/JH8zM89FJzvF44Axt64CQY"
             target="_blank"
             rel="noreferrer"
           >
             <Icon icon="logos:whatsapp-icon" className=" h-5 w-5" />
+          </a> */}
+          <a
+            href="https://x.com/0xRetreatx?t=2YT2H89acNTG9frvnNMpxw&s=09"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Icon icon="ri:twitter-x-fill" className=" h-5 w-5" />
           </a>
           <a
             href="https://www.instagram.com/crypto.neo_?igsh=dTFtZmd5b2ZtcTBm"
